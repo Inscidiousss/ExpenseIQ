@@ -1,3 +1,4 @@
+import 'package:expense_tracker/hive_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:fl_chart/fl_chart.dart';
@@ -137,7 +138,7 @@ class AnalyticsScreen extends StatelessWidget {
                                     ?.copyWith(fontWeight: FontWeight.w600),
                               ),
                               Text(
-                                '\$${entry.value.toStringAsFixed(2)}',
+                                '${AppConstants.currencySymbol}${entry.value.toStringAsFixed(2)}',
                                 style: TextStyle(
                                   fontWeight: FontWeight.w700,
                                   color: _chartColors[i % _chartColors.length],
