@@ -1,4 +1,4 @@
-# 💰 ExpenseIQ — Smart Daily Expense Tracker
+# 💰 MeroKhaata — Smart Daily Expense Tracker
 
 A full-featured Flutter expense tracking app with AI-powered savings & investment advice.
 

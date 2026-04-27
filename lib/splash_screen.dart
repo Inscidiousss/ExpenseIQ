@@ -85,7 +85,7 @@ class _SplashScreenState extends State<SplashScreen>
                     ),
                     const SizedBox(height: 24),
                     Text(
-                      'ExpenseIQ',
+                      'MeroKhaata',
                       style: GoogleFonts.poppins(
                         fontSize: 36,
                         fontWeight: FontWeight.w700,

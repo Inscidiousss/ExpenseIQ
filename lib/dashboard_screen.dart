@@ -59,7 +59,7 @@ class DashboardScreen extends StatelessWidget {
                                     ),
                                     const SizedBox(height: 4),
                                     const Text(
-                                      'ExpenseIQ',
+                                      'MeroKhaata',
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontSize: 24,

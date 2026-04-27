@@ -67,7 +67,7 @@ class _ExportDialogState extends State<ExportDialog> {
             pw.Header(
               level: 0,
               child: pw.Text(
-                'ExpenseIQ - Expense Report',
+                'MeroKhaata- Expense Report',
                 style: pw.TextStyle(
                   fontSize: 24,
                   fontWeight: pw.FontWeight.bold,
@@ -149,7 +149,7 @@ class _ExportDialogState extends State<ExportDialog> {
                     e.title,
                     e.category,
                     e.isExpense ? 'Expense' : 'Income',
-                    '${AppConstants.currencySymbol}{e.amount.toStringAsFixed(2)}',
+                    '${AppConstants.currencySymbol}${e.amount.toStringAsFixed(2)}',
                   ]).toList(),
               headerStyle: pw.TextStyle(
                 fontWeight: pw.FontWeight.bold,
